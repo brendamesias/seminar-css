@@ -22,7 +22,7 @@
         "name": "camera",
         "order": 537,
         "id": 16,
-        "prevSize": 32,
+        "prevSize": 64,
         "code": 59663
       },
       "setIdx": 0,
@@ -51,7 +51,7 @@
         "name": "envelop",
         "order": 539,
         "id": 70,
-        "prevSize": 32
+        "prevSize": 64
       },
       "setIdx": 0,
       "setId": 1,
@@ -78,9 +78,9 @@
       "properties": {
         "ligatures": "display, screen",
         "name": "display",
-        "order": 538,
+        "order": 540,
         "id": 87,
-        "prevSize": 32,
+        "prevSize": 64,
         "code": 59734
       },
       "setIdx": 0,
@@ -112,7 +112,10 @@
       "useClassSelector": true,
       "color": 0,
       "bgColor": 16777215,
-      "classSelector": ".icon"
+      "classSelector": ".icon",
+      "height": 32,
+      "columns": 16,
+      "margin": 16
     },
     "historySize": 50,
     "showCodes": true,

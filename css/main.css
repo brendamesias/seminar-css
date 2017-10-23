@@ -1,0 +1,72 @@
+body{
+  /**/
+  box-sizing: border-box;
+  margin:0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+/*clases reutilizables*/
+.text-uppercase{
+  text-transform: uppercase;
+}
+.box-header{
+display: inline-block;
+}
+
+/*clases esoecificad*/
+
+.logo-header{
+  width: 200px;
+}
+
+li{
+  display: inline;
+  list-style: none;
+}
+
+li a{
+  color: inherit; /*agregar de su padre*/
+  text-decoration: none;
+}
+
+header{
+  position: relative;
+}
+
+nav{
+  position: absolute;
+  right: 5%;
+  top: 50%;
+  transform:translateY(-50%);
+}
+
+section{
+  text-align: center;
+}
+
+div{
+  display: inline-block;
+  width: 25%;
+  padding: 7px;
+
+span{
+  font-size: 70px;
+}
+
+p{
+  font-size: 20px;
+
+}
+
+body section{
+
+}
+
+button{
+  background-color: #f9a91a;
+  padding: 10px;
+  color: rgb(255, 255, 255);
+  border: 0;
+  border-radius: 5px;
+}
